@@ -2,7 +2,7 @@ import { MainLayout } from '@/components/main-layout';
 import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Goals & Planning - Legend',
+  title: 'Goals & Planning - L.E.G.E.N.D.',
   description: 'Set and track your financial goals',
 };
 

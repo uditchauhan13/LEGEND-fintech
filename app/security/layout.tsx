@@ -2,7 +2,7 @@ import { MainLayout } from '@/components/main-layout';
 import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Security Timeline - Legend',
+  title: 'Security Timeline - L.E.G.E.N.D.',
   description: 'View your security activity',
 };
 

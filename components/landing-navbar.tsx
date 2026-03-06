@@ -12,7 +12,7 @@ export function LandingNavbar() {
     <nav className="fixed top-0 right-0 left-0 z-40 border-b border-border bg-card/95 backdrop-blur-sm">
       <div className="flex h-16 items-center justify-between px-6">
         <Link href="/">
-          <h1 className="text-xl font-semibold text-primary hover:text-primary/90 transition-colors cursor-pointer">Legend</h1>
+          <h1 className="text-xl font-semibold text-primary hover:text-primary/90 transition-colors cursor-pointer">L.E.G.E.N.D.</h1>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

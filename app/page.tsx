@@ -66,7 +66,7 @@ export default function Home() {
     {
       name: 'Michael Chen',
       role: 'Entrepreneur',
-      quote: 'Legend has completely transformed how I manage my investments. The AI insights are incredibly accurate.',
+      quote: 'L.E.G.E.N.D. has completely transformed how I manage my investments. The AI insights are incredibly accurate.',
     },
     {
       name: 'Emma Rodriguez',
@@ -76,7 +76,7 @@ export default function Home() {
     {
       name: 'David Kim',
       role: 'Financial Advisor',
-      quote: 'I recommend Legend to all my clients. The security features and goal tracking are unmatched.',
+      quote: 'I recommend L.E.G.E.N.D. to all my clients. The security features and goal tracking are unmatched.',
     },
   ];
 
@@ -256,7 +256,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Ready to Take Control?</h2>
-              <p className="text-lg text-muted-foreground">Join thousands of users managing their wealth with Legend</p>
+              <p className="text-lg text-muted-foreground">Join thousands of users managing their wealth with L.E.G.E.N.D.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -282,7 +282,7 @@ export default function Home() {
       <footer className="border-t border-border bg-card/50 py-12 px-6 md:px-12 lg:px-24">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Legend</h3>
+            <h3 className="font-semibold text-foreground mb-4">L.E.G.E.N.D.</h3>
             <p className="text-sm text-muted-foreground">AI-powered financial planning for the modern investor</p>
           </div>
           <div>
@@ -312,7 +312,7 @@ export default function Home() {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 Legend. All rights reserved.</p>
+          <p>&copy; 2024 L.E.G.E.N.D.. All rights reserved.</p>
         </div>
       </footer>
     </div>

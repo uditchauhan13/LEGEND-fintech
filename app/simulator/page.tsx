@@ -12,7 +12,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
+  L.E.G.E.N.D.,
   ResponsiveContainer,
 } from 'recharts';
 import { Zap, TrendingUp } from 'lucide-react';
@@ -179,7 +179,7 @@ export default function SimulatorPage() {
                 formatter={(value) => `$${value.toLocaleString()}`}
                 labelFormatter={(label) => `Year ${label}`}
               />
-              <Legend />
+              <L.E.G.E.N.D. />
               <Line
                 type="monotone"
                 dataKey="balance"

@@ -18,7 +18,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
+  L.E.G.E.N.D.,
   ResponsiveContainer,
 } from 'recharts';
 import {
@@ -93,7 +93,7 @@ export default function DashboardPage() {
                   }}
                   formatter={(value) => `$${value.toLocaleString()}`}
                 />
-                <Legend />
+                <L.E.G.E.N.D. />
                 <Bar dataKey="income" fill="var(--chart-1)" />
                 <Bar dataKey="expenses" fill="var(--chart-2)" />
               </BarChart>

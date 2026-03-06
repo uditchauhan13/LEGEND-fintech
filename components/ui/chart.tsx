@@ -248,16 +248,16 @@ function ChartTooltipContent({
   )
 }
 
-const ChartLegend = RechartsPrimitive.Legend
+const ChartL.E.G.E.N.D. = RechartsPrimitive.L.E.G.E.N.D.
 
-function ChartLegendContent({
+function ChartL.E.G.E.N.D.Content({
   className,
   hideIcon = false,
   payload,
   verticalAlign = 'bottom',
   nameKey,
 }: React.ComponentProps<'div'> &
-  Pick<RechartsPrimitive.LegendProps, 'payload' | 'verticalAlign'> & {
+  Pick<RechartsPrimitive.L.E.G.E.N.D.Props, 'payload' | 'verticalAlign'> & {
     hideIcon?: boolean
     nameKey?: string
   }) {
@@ -347,7 +347,7 @@ export {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-  ChartLegend,
-  ChartLegendContent,
+  ChartL.E.G.E.N.D.,
+  ChartL.E.G.E.N.D.Content,
   ChartStyle,
 }

@@ -16,7 +16,7 @@ export function Navbar() {
       <div className="flex h-16 items-center justify-between px-6">
         <div className="flex items-center gap-8">
           <Link href="/dashboard">
-            <h1 className="text-xl font-semibold text-primary hover:text-primary/90 transition-colors cursor-pointer">Legend</h1>
+            <h1 className="text-xl font-semibold text-primary hover:text-primary/90 transition-colors cursor-pointer">L.E.G.E.N.D.</h1>
           </Link>
           <div className="hidden md:flex items-center gap-1">
             <Link href="/dashboard">
