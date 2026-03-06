@@ -1,29 +1,54 @@
 "use client"
 
-import HeroScene from "./HeroScene"
+import HeroCanvas from "./HeroCanvas"
+import LegendReveal from "./LegendReveal"
+import LegendMeaning from "./LegendMeaning"
+import SystemStatus from "./SystemStatus"
+import Link from "next/link"
 
-export default function LandingHero({children}:{children:React.ReactNode}){
+export default function LandingHero(){
 
-return(
+  return(
 
-<section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
 
-<div className="absolute inset-0 -z-10">
+      {/* 3D background */}
+      <div className="absolute inset-0">
+        <HeroCanvas/>
+      </div>
 
-<HeroScene/>
+      {/* dark overlay */}
+      <div className="absolute inset-0 bg-black/60"/>
 
-</div>
+      {/* content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
 
-<div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#F8F6F2]"/>
+        <LegendReveal/>
 
-<div className="relative z-10 flex items-center justify-center h-full text-center px-6">
+        <LegendMeaning/>
 
-{children}
+        <SystemStatus/>
 
-</div>
+        <div className="flex gap-4 mt-8">
 
-</section>
+          <Link
+          href="/signup"
+          className="px-6 py-3 bg-purple-600 rounded-lg hover:bg-purple-700"
+          >
+          Get Started
+          </Link>
 
-)
+          <Link
+          href="/login"
+          className="px-6 py-3 border border-gray-400 rounded-lg"
+          >
+          Login
+          </Link>
 
+        </div>
+
+      </div>
+
+    </section>
+  )
 }
