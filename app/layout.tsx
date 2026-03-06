@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Legend - AI-Powered Financial Planning',
+  title: 'L.E.G.E.N.D - AI-Powered Financial Planning',
   description: 'Modern financial planning with AI insights, goal tracking, and wealth management tools',
-  generator: 'v0.app',
+ 
   icons: {
     icon: [
       {
