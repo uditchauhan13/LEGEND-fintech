@@ -3,7 +3,7 @@
 import { MainLayout } from '@/components/main-layout';
 import { DashboardCard } from '@/components/dashboard-card';
 import { useUser } from '@/lib/user-context';
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, L.E.G.E.N.D., ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { TrendingUp, Zap } from 'lucide-react';
 
 const portfolioData = [
@@ -134,7 +134,7 @@ export default function PortfolioPage() {
                   }}
                   formatter={(value) => `$${(value as number).toLocaleString()}`}
                 />
-                <L.E.G.E.N.D. />
+                <Legend />
                 <Line
                   type="monotone"
                   dataKey="value"
