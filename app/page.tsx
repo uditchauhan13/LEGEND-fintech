@@ -4,6 +4,11 @@ import { LandingNavbar } from '@/components/landing-navbar';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowRight, Shield, TrendingUp, Brain, Lock, Zap } from 'lucide-react';
+import LandingHero from "@/components/landing/LandingHero"
+import PortfolioChart from "@/components/landing/PortfolioChart"
+import SystemStatus from "@/components/landing/SystemStatus"
+import LegendMeaning from "@/components/landing/LegendMeaning"
+
 
 export default function Home() {
   const features = [
@@ -85,37 +90,54 @@ export default function Home() {
       <LandingNavbar />
 
       <main>
-        {/* Hero Section */}
-        <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <div className="inline-block px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20">
-              <p className="text-sm font-medium text-secondary">Your AI-Powered Wealth Partner</p>
-            </div>
+  {/* Hero Section */}
+<LandingHero>
 
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-              Financial Planning
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"> Made Intelligent</span>
-            </h1>
+<div className="max-w-4xl mx-auto text-center space-y-6">
 
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Take control of your wealth with AI-driven insights, portfolio management, and personalized financial planning tools.
-            </p>
+<div className="inline-block px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20">
+<p className="text-sm font-medium text-secondary">
+Your AI-Powered Wealth Partner
+</p>
+</div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Link href="/signup">
-                <Button size="lg" className="gap-2">
-                  Get Started
-                  <ArrowRight className="h-5 w-5" />
-                </Button>
-              </Link>
-              <Link href="/login">
-                <Button variant="outline" size="lg">
-                  Sign In
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </section>
+<h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+Financial Planning
+<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+ Made Intelligent
+</span>
+</h1>
+<LegendMeaning />
+
+<p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+Take control of your wealth with AI-driven insights, portfolio management,
+and personalized financial planning tools.
+</p>
+
+<SystemStatus />
+
+<PortfolioChart />
+
+<div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+
+<Link href="/signup">
+<Button size="lg" className="gap-2">
+Get Started
+<ArrowRight className="h-5 w-5" />
+</Button>
+</Link>
+
+<Link href="/login">
+<Button variant="outline" size="lg">
+Sign In
+</Button>
+</Link>
+
+</div>
+
+</div>
+
+</LandingHero>
 
         {/* Features Section */}
         <section id="features" className="py-20 px-6 md:px-12 lg:px-24 bg-card/50">
