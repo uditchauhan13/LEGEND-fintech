@@ -27,7 +27,7 @@ const DEFAULT_USER: User = {
   avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
   balance: 245680.50,
   netWorth: 1425680.50,
-  currency: 'USD',
+  currency: 'INR',
 };
 
 export function UserProvider({ children }: { children: ReactNode }) {
